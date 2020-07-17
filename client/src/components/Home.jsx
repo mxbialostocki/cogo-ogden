@@ -1,6 +1,9 @@
 import React from 'react'
 
-const Home = () => {
+const Home = ({ogden}) => {
+
+  const ogdenString = ogden
+
   return (
     <React.Fragment>
       <p>oh hello, world</p>
