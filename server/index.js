@@ -15,6 +15,6 @@ app.use('/', router.get('*', (req, res) => {
   res.sendFile(path.resolve('client/public', 'index.html'))
 }))
 
-app.listen(process.env.PORT || 4000, () => {
+app.listen(process.env.PORT || 8181, () => {
   console.log('Server is listening.')
 })
