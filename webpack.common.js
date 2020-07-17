@@ -20,6 +20,10 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       },
       {
+        test: /\.txt$/,
+        use: ['file-loader']
+      },
+      {
         test: /\.(png|jpe?g|gif|svg)$/i,
         use: [{
           loader: 'file-loader',
@@ -45,6 +49,7 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   node: {
-    global: true
+    global: true,
+    fs: 'empty'
   }
 }
