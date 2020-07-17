@@ -1,0 +1,48 @@
+{
+  "name": "dealbification",
+  "version": "1.0.0",
+  "description": "client-based boxing tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "webpack --config webpack.prod.js",
+    "heroku-postbuild": "webpack --config webpack.prod.js",
+    "test": "test",
+    "dev": "webpack --config webpack.dev.js & nodemon server/index.js --watch server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxbialostocki/dealbification.git"
+  },
+  "author": "mxbialostocki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxbialostocki/dealbification/issues"
+  },
+  "homepage": "https://github.com/mxbialostocki/dealbification#readme",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^4.2.2"
+  }
+}
