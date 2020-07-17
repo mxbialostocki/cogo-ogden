@@ -1,7 +1,7 @@
 {
-  "name": "dealbification",
+  "name": "cogo-ogden",
   "version": "1.0.0",
-  "description": "client-based boxing tool",
+  "description": "take-home test",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
@@ -40,6 +40,7 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0",
     "nodemon": "^2.0.4",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
