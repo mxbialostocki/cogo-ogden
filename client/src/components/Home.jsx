@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Countdown = () => {
+const Home = () => {
   return (
     <React.Fragment>
       <p>oh hello, world</p>
@@ -8,4 +8,4 @@ const Countdown = () => {
   )
 }
 
-export default Countdown
+export default Home

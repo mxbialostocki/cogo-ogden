@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
 // component imports
-import Countdown from './Countdown'
+import Home from './Home'
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
 
       <Switch>
         <Route exact path='/'>
-          <Countdown />
+          <Home />
         </Route>
       </Switch>
     </React.Fragment>
